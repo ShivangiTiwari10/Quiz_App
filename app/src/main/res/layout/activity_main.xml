@@ -29,7 +29,8 @@
         app:layout_constraintBottom_toTopOf="@id/cardView"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/quizAppText" />
+        app:layout_constraintTop_toBottomOf="@id/quizAppText"
+        android:contentDescription="@string/todo" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
@@ -78,9 +79,8 @@
                     android:id="@+id/enterNameEditText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="e.g Ron"
+                    android:hint="@string/e_g_ron"
                     android:inputType="textCapWords"
-                    android:digits="0123456789qwertzuiopasdfghjklyxcvbnm "
                     android:textColor="#363A43"
                     android:textColorHint="#7A8089"
                     android:textSize="16sp" />
@@ -108,7 +108,7 @@
                         android:layout_margin="5dp"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="START"
+                        android:text="@string/start"
                         android:textColor="@color/white"
                         android:textSize="18sp" />
 

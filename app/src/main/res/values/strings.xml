@@ -16,4 +16,7 @@
     <string name="rule_2">Every correct answer scores you 1 point.</string>
     <string name="rule_3">Every wrong answer deducts 1 point.</string>
     <string name="rule_4">Results are available at the end of the quiz.</string>
+    <string name="todo">TODO</string>
+    <string name="e_g_ron">e.g Ron</string>
+    <string name="start">START</string>
 </resources>
